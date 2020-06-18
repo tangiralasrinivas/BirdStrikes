@@ -1,0 +1,12 @@
+name: bird-strikes-risk-model
+title: bird-strikes-risk-model
+username:
+account: birdstrikescapstone
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2315442
+bundleId: 3160164
+url: https://birdstrikescapstone.shinyapps.io/bird-strikes-risk-model/
+when: 1589776320.72125
+asMultiple: FALSE
+asStatic: FALSE

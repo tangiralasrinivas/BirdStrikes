@@ -1,0 +1,120 @@
+<!-- Carousel
+  ================================================== -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    
+    <!--Carousel 1-->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/plane1.jpg" alt = "1">
+        <div class="container">
+          <div class="carousel-caption">
+            <p style = "font-size: 24px; color:white;"><b>Bird strikes have killed 280+ people and destroyed 260+ aircraft worldwide (1988-Present)</b></p>
+          </div>
+        </div>
+      </div>
+
+      <!--Carousel 2-->
+      <div class="item">
+        <img src="images/plane2.jpg" alt="2">
+        <div class="container">
+          <div class="carousel-caption">
+            <p style = "font-size: 24px; color:white;"><b>53% of bird strikes occurred between July and October (1990-2017)</b></p>
+          </div>
+        </div>
+      </div>
+      
+      <!--Carousel 3-->
+
+      <div class="item">
+        <img src="images/plane3.jpg" alt="3">
+        <div class="container">
+          <div class="carousel-caption">
+            <p style = "font-size: 24px; color:white;"><b>92% of bird strikes occurred at or below 3,500 ft AGL (1990-2017)</b></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+  </div>
+  <!-- /.carousel -->
+
+  <div class="container marketing">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="container">
+        <h1 class="text-center fit-h1" style="font-size: 3em; margin-bottom: 30px;"><b>Mitigating a Bird Strike...</b></h1>
+      </div>
+    </div>
+    <style>
+
+    </style>
+    <div class="row app-links">
+      <div class="col-md-4">
+        <img src="images/birdy.png" width="50%" alt="novice">
+        <br>
+        <br>
+        <button type = "button" class = "btn btn-primary btn-lg" style="width: 200px; height: 60px;" onclick="$('li:eq(1) a').tab('show');">
+          <b>Strike Risk</b>
+        </button>
+      </div><!-- /.col-md-4 -->
+
+      <div class="col-md-4">
+        <img src="images/faa_logo.png" width="50%" alt="veteran">
+        <br>
+        <br>
+        <a href="https://wildlife.faa.gov/add">
+          <button type = "button" class = "btn btn-primary btn-lg" style="width: 200px; height: 60px;" onclick="https://wildlife.faa.gov/add">
+            <b>Report a Strike</b>
+          </button></a>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
+          <img src="images/engine.png" width="50%" alt="evaluator">
+          <br>
+          <br>
+          <button type = "button" class = "btn btn-primary btn-lg" style="width: 200px; height: 60px;" onclick="$('li:eq(2) a').tab('show');">
+            <b>Engine Failure Risk</b>
+          </button>
+        </div><!-- /.col-md-4 -->
+      </div><!-- /.row -->
+
+
+      <hr class="featurette-divider">
+      <div>  
+        <h1 class="text-center fit-h1" style="font-size: 3em; margin-bottom: 30px;"><b>Bird Strike Central... </b></h1>
+        <p align =center><iframe 
+          width="889" 
+          height="500" 
+          src="https://www.youtube.com/embed/JmcGYrixuY8" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen
+          style="border: 4px solid black;"></iframe> </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <h2>Our Inspiration...Clear Skies, Save Lives!<br></h2>
+        <p style="text-align: center; font-size: 21px" >The collision of birds and planes is a rare event on a relative basis but one which may have catastrophic consequences, as some highly publicized examples, such as “The Miracle on the Hudson,” demonstrate. It is not possible to mitigate the risk of a strike per se, because it is not possible for pilots to dodge birds in flight. Yet, awareness of the relative level of risk at pre-flight and descent planning stages can mitigate the severity of the potential outcomes as the discussion of the risk, and the steps each crew member will take if the event occurs, will save precious time should there be an emergency such as engine failure or other severe damage. <a data-toggle="collapse" data-parent="#accordionOne" href="#collapseOne">Read more&hellip;</a></p>
+        <div class="panel-group transparent-panel-group" id="accordionOne">
+          <div class="panel panel-default">
+            <div id="collapseOne" class="panel-collapse collapse">
+              <div class="panel-body text-left">
+                <h5 class="lead" style="text-align: center; font-size: 18px">Our goal was to develop a predictive model to assess strike risk, and a tool through which this information can be made available to pilots and other interested parties in an easy-to-use manner. Our work focused on Denver International Airport in the first instance, but the insights and knowledge developed through our analyses and models are readily generalizable to all airfields in the continental United States. We developed a predictive model which assesses the daily level of strike risk based on public data sourced from the Federal Aviation Administration (FAA), National Oceanic and Administrative Administration (NOAA), and eBirds database maintained by The Cornell Lab of Ornithology.</h5>
+                <h5 class="lead" style="text-align: center;font-size: 18px" > <b> It is our intention to continue our engagement with commercial airlines and the FAA upon completion of the program, and it is our hope that the usage of a tool, such as ours, as well as the discussion of bird strike risk as part of every pre-flight briefing, will eventually become obligatory. </b> </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <hr class="featurette-divider">
+      </div>
+      <!-- /END THE FEATURETTES -->
